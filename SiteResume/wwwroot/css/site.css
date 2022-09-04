@@ -1,0 +1,40 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.ctr-position{
+    position:relative;
+    padding:200px 0px 0px 0px;
+}
+
+.t-size{
+    font-size:32px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+}
+
+.abz-pos{
+    text-align:center;
+    position:relative;
+    margin-top:100px;
+    margin-bottom: -100px;
+}
+
+.b-color1{
+    background-color:rgb(182, 255, 0);
+}
